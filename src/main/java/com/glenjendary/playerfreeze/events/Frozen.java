@@ -1,7 +1,7 @@
-package com.glenjendary.PlayerFreeze.events;
+package com.glenjendary.playerfreeze.events;
 
-import com.glenjendary.PlayerFreeze.Main;
-import com.glenjendary.PlayerFreeze.commands.Freeze;
+import com.glenjendary.playerfreeze.Main;
+import com.glenjendary.playerfreeze.commands.Freeze;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -14,13 +14,11 @@ import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-/* PlayerFreeze Created by Glenjendary on 9/07/2017. */
+/* playerfreeze Created by Glenjendary on 9/07/2017. */
 
 public class Frozen implements Listener {
+
     private Main plugin;
-    public Frozen(Main plugin) {
-        this.plugin = plugin;
-    }
 
     @EventHandler
     public void onPlayerMove (PlayerMoveEvent event) {

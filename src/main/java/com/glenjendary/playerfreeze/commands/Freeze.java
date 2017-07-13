@@ -1,6 +1,6 @@
-package com.glenjendary.PlayerFreeze.commands;
+package com.glenjendary.playerfreeze.commands;
 
-import com.glenjendary.PlayerFreeze.Main;
+import com.glenjendary.playerfreeze.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -10,17 +10,14 @@ import org.bukkit.entity.Player;
 
 import java.util.ArrayList;
 
-/* PlayerFreeze Created by Glenjendary on 9/07/2017. */
+/* playerfreeze Created by Glenjendary on 9/07/2017. */
 
 public class Freeze implements CommandExecutor {
+
     private Main plugin;
-    public Freeze(Main plugin) {
-        this.plugin = plugin;
-    }
 
     public static ArrayList<Player> frozen = new ArrayList<>();
 
-    @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 
         if (cmd.getName().equalsIgnoreCase("freeze")) {
