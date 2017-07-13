@@ -1,6 +1,6 @@
-name: PlayerFreeze
+name: Freeze
 author: Glenjendary
-main: com.glenjendary.PlayerFreeze.Main
+main: com.glenjendary.playerfreeze.Main
 description: Freezes a player so they can be screenshared + advanced listeners.
 version: 1.0
 commands:
